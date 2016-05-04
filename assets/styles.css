@@ -1,0 +1,94 @@
+html {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+header {
+  background: #ebebeb;
+  height: 80px;
+  width: 100%;
+}
+
+header img {
+  height: 45%;
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+
+header a {
+  text-decoration: none;
+  margin: 10px;
+  color: #C1C8CC;
+  position: relative;
+  left: 180px;
+  top: 8px;
+  font-size: 18px;
+}
+
+/*Hero*/
+
+.hero-home {
+  height: 500px;
+  width: 100%;
+  background: #102337;
+  background-image: url("assets/zenbg.png");
+  position: relative;
+  color: #fff;
+}
+
+.hero-right {
+  width: 50%;
+  height: 75%;
+  position: absolute;
+  right: 100px;
+}
+
+.hero-right h1 {
+  color: #FFF;
+  font-size: 45px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.hero-right h2 {
+}
+
+.hero-left {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+}
+
+/*Welcome Back divs*/
+
+.latest-blog-post, .latest-podcast {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 320px;
+  height: 300px;
+  text-align: center;
+}
+
+.latest-blog-post h2, .latest-podcast h2 {
+  font-size: 25px;
+}
+
+.latest-podcast img {
+  margin: 20px;
+}
+
+.latest-blog-post {
+  left: -70px;
+  top: 30px;
+}
+
+.latest-podcast {
+  right: -300px;
+  top: -273px;
+}
+
+.caption {
+  display: block;
+  margin: 10px;
+}
